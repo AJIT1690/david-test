@@ -1,0 +1,49 @@
+@media(min-width:992px) {
+    .container {
+        max-width: 940px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .bethel__enquire {
+        margin: 0;
+        padding: 25px 15px;
+        max-width: 100%;
+    }
+    .bethel__intro {
+        max-width: 100%;
+        margin: 0;
+        padding: 25px 15px;
+    }
+    .form label {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:767px) {
+    .site-header .header__info {
+        float: none;
+    }
+    .site-header {
+        padding: 15px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+    .learn-more {
+        padding: 55px 0;
+    }
+    .learn-item {
+        margin: 19px auto;
+        max-width: 300px;
+    }
+    .footer-wrap {
+        text-align: center;
+        flex-flow: column;
+    }
+    .bethel__enquire h2 {
+        margin-bottom: 10px;
+    }
+}
